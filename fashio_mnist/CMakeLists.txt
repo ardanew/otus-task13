@@ -3,7 +3,6 @@ set(TARGET_NAME fashio_mnist)
 set(SERVER_SOURCES 
     CACHE FILEPATH ""
 )
-find_package(Boost REQUIRED COMPONENTS system locale)
 
 add_executable(${TARGET_NAME} main.cpp)
 
